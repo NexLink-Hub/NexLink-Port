@@ -1,164 +1,89 @@
-:
+NexLink Solutions Website A modern, responsive, and visually engaging company portfolio website for NexLink Solutions, showcasing web and app development services, the team, and innovative 3D experiences.
 
-🚀 NexLink Solutions Website
+This project demonstrates a combination of clean design, responsive layouts, interactive animations, and cutting-edge front-end techniques.
 
-A modern, responsive, and visually engaging company portfolio website for NexLink Solutions, showcasing web & app development services, the team, and innovative 3D experiences.
+🌍 Live Demo
 
-This project combines clean design, responsive layouts, interactive animations, and cutting-edge front-end techniques.
+Visit the Website: https://nexlinksolutionza.netlify.app/
 
-🌍 Live Demo → Visit Website
+📖 Project Overview
 
-📖 Overview
+The NexLink Solutions website was designed as a company landing page to highlight:
+Services offered (Web Dev, Mobile Apps, UI/UX, Cloud Solutions, Strategy, and Maintenance).
+Team members and their roles with social links.
+Portfolio/projects showcase (placeholder section).
+Contact details & company identity.
+A modern, interactive hero section enhanced by Three.js 3D canvas.
+A rotating 3D cube animation to represent innovation and creativity.
+🛠️ Technologies & Techniques Used
 
-The website was designed as a company landing page to highlight:
-
-💻 Services offered – Web Dev, Mobile Apps, UI/UX, Cloud Solutions, Strategy & Maintenance
-
-👥 Team members – Roles with social links
-
-📂 Portfolio/projects showcase (placeholder section)
-
-📬 Contact details & company identity
-
-🎨 Interactive Hero Section powered by Three.js
-
-🧊 Rotating 3D cube animation symbolizing innovation
-
-🛠️ Tech Stack & Techniques
-🔹 HTML5
-
-Semantic structure (<header>, <section>, <footer>) for SEO & accessibility
-
-Organized into Hero, Services, Team, 3D Experience, Footer
-
-Integrated Font Awesome (6.4.0) icons
-
-🔹 CSS3
-
-Modern styling with advanced techniques:
-
-🎨 CSS Variables for theme colors (primary, secondary, accent, etc.)
-
-📱 Responsive Grid & Flexbox layouts
-
-✨ Glassmorphism & gradients in hero & cards
-
-🎞️ Hover effects & transitions on links, buttons, and cards
-
-🧊 Custom animations:
-
-@keyframes rotate → Rotating cube
-
-@keyframes shine → Team image shine effect
-
-📐 Breakpoints for responsiveness: desktop, tablet, and mobile
-
-🔹 JavaScript & Libraries
-
-⚡ Three.js (r128) for immersive 3D rendering
-
-📝 script.js for:
-
-3D canvas interactivity
-
-Mobile navigation toggle (hamburger menu)
-
-🎭 Font Awesome for scalable vector icons
-
-🔹 UI/UX Principles
-
-✅ Consistency in typography, spacing & color scheme
-
-✅ Visual hierarchy through headings & section titles
-
-✅ Accessibility (contrast, large click areas, semantic tags)
-
-✅ Clear CTAs: “View Our Work” & “Get In Touch”
-
-🔹 3D Techniques
-
-Hero section prepared for Three.js canvas
-
-Custom CSS 3D Cube with faces labeled (Web, App, 3D)
-
-Used perspective & preserve-3d for realistic depth
-
-📂 Project Structure
-├── index.html      # Main HTML page
-├── style.css       # Core stylesheet (theme, layout, animations)
-├── script.js       # JavaScript for interactivity & Three.js effects
-├── LICENSE         # License file
-└── assets/         # (Optional) logos, images, icons
+HTML5
+Semantic structure: ,
+, improve SEO and accessibility.
+Clear separation of sections (Hero, Services, Team, 3D Experience, Footer).
+Integration of icons using Font Awesome 6.4.0 for a polished look.
+CSS3
+The project uses modern CSS practices and design techniques:
+CSS Variables (:root) for theme colors (primary, secondary, accent, light/dark).
+Responsive Grid & Flexbox Layouts for fluid design across devices.
+Glassmorphism & Gradients: used in backgrounds, hero section, and service cards.
+Hover Effects & Transitions: smooth animations on buttons, nav links, service cards, and team profiles.
+Box Shadows & Depth: adds realism and hierarchy. Custom Animations:
+@keyframes rotate → 3D cube rotation.
+@keyframes shine → team image shine effect. Responsive Breakpoints:
+Tablet & mobile friendly navigation.
+Hero text resizes for smaller screens.
+Grid sections collapse into single-column on smaller devices.
+JavaScript & Libraries
+Three.js (r128) is included for advanced 3D rendering (hero canvas placeholder).
+Custom script (script.js) controls: 3D canvas interactivity.
+Mobile navigation toggle (hamburger menu).
+Font Awesome for scalable vector icons.
+UI/UX Principles
+Consistency: typography, spacing, and color scheme unified across all pages.
+Hierarchy: headings, section titles, and cards emphasize readability.
+Accessibility: sufficient contrast, large clickable areas, semantic HTML.
+Call-to-Action Buttons: strategically placed (“View Our Work”, “Get in Touch”).
+3D Techniques
+Hero Section: Prepared for Three.js canvas to add immersive visuals.
+Custom CSS 3D Cube: rotating cube with labeled faces (Web, App, 3D, etc.) to symbolize digital solutions.
+Perspective & Preserve-3D techniques applied for realistic depth.
+📂 Project Structure ├── index.html # Main HTML page (landing structure) ├── style.css # Core stylesheet (theme, layout, animations) ├── script.js # JavaScript for interactivity & Three.js effects ├── LICENSE # License file └── assets/ # (Optional) logos, images, icons, etc.
 
 🚀 Features
 
-✅ Sticky Navigation Bar with smooth transitions
-
-✅ Responsive Hero Section with 3D visuals & CTAs
-
-✅ Service Cards Grid with hover animations
-
-✅ Team Section with bios & social links
-
-✅ Rotating 3D Cube to demonstrate innovation
-
-✅ Modern Footer with quick links & company info
-
-✅ Mobile-first responsive design
+✅ Sticky Navigation Bar with smooth transitions. ✅ Responsive Hero Section with 3D visuals and CTAs. ✅ Service Cards Grid with hover animations. ✅ Team Section with role descriptions and social links. ✅ Rotating 3D Cube to demonstrate innovation. ✅ Modern Footer with quick links and company info. ✅ Responsive & Mobile-First design approach.
 
 📱 Responsiveness
 
 The site adapts seamlessly across devices:
+Desktop (1200px+): Full grid layout, wide spacing.
+Tablet (768px – 992px): Grids collapse, 3D cube shrinks, hero text scales.
+Mobile (<768px): Hamburger menu, stacked layout, optimized buttons.
+📌 How to Run Locally
 
-🖥️ Desktop (1200px+) → Full grid layout, wide spacing
+Clone the repository:
 
-📊 Tablet (768px – 992px) → Grids collapse, cube shrinks, hero text scales
+git clone https://github.com/NexLink-Hub/NexLink-Port.git cd nexlink-solutions
+Open index.html in your browser.
 
-📱 Mobile (<768px) → Hamburger menu, stacked layout, optimized buttons
-
-🖥️ Run Locally
-
-Clone the repo and open in your browser:
-
-git clone https://github.com/NexLink-Hub/NexLink-Port.git
-cd nexlink-solutions
-
-
-Open index.html in a browser.
-
-For live reload (optional):
-
-npx live-server
-
+(Optional) To serve with live reload, use a local dev server like: npx live-server
 📈 Future Enhancements
 
- Add Projects Section with real portfolio work
-
- Integrate Contact Form (backend or Formspree)
-
- Enhance 3D Hero Canvas with interactive Three.js models
-
- Add Dark Mode Toggle
-
- Implement Animations on Scroll (AOS.js / GSAP)
-
+Add Projects Section with real portfolio work.
+Integrate a Contact Form (with backend or service like Formspree).
+Enhance 3D Hero Canvas with interactive Three.js models.
+Implement Dark Mode Toggle.
+Add Animations on Scroll (AOS.js / GSAP).
 📄 License
 
-This project is licensed under the MIT License
-.
+This project is licensed under the MIT License .
 
 👨‍💻 Team NexLink
 
-🧑‍💻 Matthews Thekiso – Lead Developer
-
-🎨 Katleho Matsabu – UI/UX Designer
-
-📱 Jabulani Nyathi – Mobile Developer
-
-🛠️ Harry Mafoka – Full-stack/Backend Developer
-
-📋 Lehlohonolo Mofokeng – Project Manager
-
-🐞 Tumelo Mawayi – QA Engineer
-
-🔥 Built with passion by NexLink Solutions to deliver next-level digital experiences.
+Matthews Thekiso – Lead Developer
+Katleho Matsabu – UI/UX Designer
+Jabulani Nyathi – Mobile Developer
+Harry Mafoka – Full-stack/Backend Developer
+Lehlohonolo Mofokeng – Project Manager
+Tumelo Mawayi – QA Engineer
